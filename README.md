@@ -41,5 +41,59 @@ Link to dataset: [compas-scores-two-years.csv on GitHub](https://github.com/prop
   - **scikit-learn** for machine learning models
   - **matplotlib** and **seaborn** for visualizations
 
-## Project Structure
+
+## Installation
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/your-username/fairness_in_COMPAS.git
+    ```
+
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd fairness_in_COMPAS
+    ```
+
+3. **Install Dependencies**:
+    Install the required Python packages.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the Jupyter Notebook**:
+    ```bash
+    jupyter notebook fairness_with_COMPAS_notebook.ipynb
+    ```
+
+## Usage
+
+The notebook guides you through each stage of the analysis:
+1. **Dataset Exploration**: Load the data, examine feature distributions, identify missing values, and assess demographic breakdowns.
+2. **Bias Detection**: Evaluate COMPAS classifier's performance across different demographic groups and compute fairness metrics.
+3. **Training Classifiers**: Train standard classifiers on the recidivism prediction task and evaluate their performance and fairness.
+4. **Fair Classifier Implementation**: Experiment with fairness-enhancing methods, build a fair classifier, and analyze its results.
+
+## References
+
+1. **Fairness and Machine Learning** by Barocas, Hardt, and Narayanan. Available at [fairmlbook.org](http://www.fairmlbook.org).
+2. **Fair prediction with disparate impact** by Chouldechova. Available on [arxiv.org](https://arxiv.org/abs/1703.00056).
+3. **Equality of opportunity in supervised learning** by Hardt, Price, and Srebro. Available on [arxiv.org](https://arxiv.org/abs/1610.02413).
+4. **Learning classification without disparate mistreatment** by Zafar et al. Available on [arxiv.org](https://arxiv.org/abs/1610.08452).
+5. **Learning fair representations** by Zemel et al. Available at [proceedings.mlr.press](http://proceedings.mlr.press/v28/zemel13.html).
+
+## Team Members
+
+- **Andrei Ilin**
+- **Anna Krysta**
+- **Manar Shehazi**
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- **University of Grenoble Alpes** for providing resources and guidance.
+- **ProPublica** for making the COMPAS dataset publicly available.
+
 
